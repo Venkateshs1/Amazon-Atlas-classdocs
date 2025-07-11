@@ -1,4 +1,4 @@
-public class Task001 {
+public class Task003 {
     void sort(int[] arr, int n)
     {
         for(int i=n-1;i>=0;i--)
@@ -27,7 +27,7 @@ public class Task001 {
     public static void main(String[] args) {
         int[] a= {1,8,24,14,2,55,7};
         int n= a.length;
-        Task001 obj = new Task001();
+        Task003 obj = new Task003();
         obj.sort(a,n);
     }
 }
