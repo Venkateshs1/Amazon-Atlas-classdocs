@@ -45,16 +45,16 @@ public class Task3_d14 {
     }
 
     // Main method
-    public static void main(String[] args) {
-        Task3_d16 list = new Task3_d16();
-
-        // Add 4 elements
-        list.addElement(5);
-        list.addElement(15);
-        list.addElement(25);
-        list.addElement(35);
-
-        // Display the list
-        list.displayElements();
-    }
+//    public static void main(String[] args) {
+//        Task3_d16 list = new Task3_d16();
+//
+//        // Add 4 elements
+//        list.addElement(5);
+//        list.addElement(15);
+//        list.addElement(25);
+//        list.addElement(35);
+//
+//        // Display the list
+//        list.displayElements();
+//    }
 }
