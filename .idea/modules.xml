@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/A.iml" filepath="$PROJECT_DIR$/A.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Amazon_Atlas_day_wise_javacodes.iml" filepath="$PROJECT_DIR$/.idea/Amazon_Atlas_day_wise_javacodes.iml" />
     </modules>
   </component>
 </project>

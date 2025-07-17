@@ -1,0 +1,26 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+import java.util.stream.Collectors;
+
+public class Task17_d11 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Step 1: Accept 5 integers from user
+        List<Integer> numbers = new ArrayList<>();
+        System.out.println("Enter 5 integers:");
+        for (int i = 0; i < 5; i++) {
+            numbers.add(sc.nextInt());
+        }
+
+        List<Integer> RemovDups= numbers.stream()
+                .distinct()
+                .collect(Collectors.toList());
+
+        System.out.println("Enter the numbers:");
+        RemovDups.forEach(System.out::println);
+
+        sc.close();
+    }
+}
