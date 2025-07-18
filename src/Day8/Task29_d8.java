@@ -9,7 +9,6 @@ class TVRemote extends Gadgets {
     void turnOn() {
         System.out.println("TV is turned ON.");
     }
-
     @Override
     void turnOff() {
         System.out.println("TV is turned OFF.");
@@ -20,30 +19,22 @@ class ACRemote extends Gadgets {
     void turnOn() {
         System.out.println("AC is turned ON.");
     }
-
     @Override
     void turnOff() {
         System.out.println("AC is turned OFF.");
     }
 }
-
 class FanRemote extends Gadgets{
-
-
     @Override
     void turnOn() {
         System.out.println("Fan Remote is turned On");
     }
-
     @Override
     void turnOff() {
         System.out.println("Fan remote is turned off");
     }
 }
-
 class CoolerRemote extends Gadgets{
-
-
     @Override
     void turnOn() {
         System.out.println("Cooler Remote is turned on");

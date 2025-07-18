@@ -1,5 +1,4 @@
 import java.io.*;
-
 public class Task7_d11 {
     public static void main(String args[])
     {
@@ -8,7 +7,6 @@ public class Task7_d11 {
             FileInputStream file1 = new FileInputStream("FileName03.txt");
             FileInputStream file2 = new FileInputStream("FileName02.txt");
             SequenceInputStream file3 = new SequenceInputStream(file1, file2);
-
             BufferedInputStream br1 = new BufferedInputStream(file3);
             BufferedOutputStream br2 = new BufferedOutputStream(System.out);
             int ch;

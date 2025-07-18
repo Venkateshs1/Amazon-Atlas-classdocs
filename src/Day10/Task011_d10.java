@@ -1,6 +1,5 @@
 class SharedResource {
     private boolean ready = false;
-
     synchronized void produce() {
         try {
             while (ready) {
@@ -13,7 +12,6 @@ class SharedResource {
             e.printStackTrace();
         }
     }
-
     synchronized void consume() {
         try {
             while (!ready) {
@@ -30,10 +28,8 @@ class SharedResource {
 public class Task011_d10 {
     public static void main(String[] args) {
         SharedResource resource = new SharedResource();
-
         Thread producer = new Thread(resource::produce);
         Thread consumer = new Thread(resource::consume);
-
         producer.start();
         consumer.start();
     }

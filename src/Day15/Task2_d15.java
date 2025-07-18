@@ -1,5 +1,4 @@
 package Day15;
-
 class BinarySearchTree {
     static class Node {
         int data;
@@ -10,10 +9,7 @@ class BinarySearchTree {
             left = right = null;
         }
     }
-
     Node root;
-
-
     void insert(int value) {
         if (root == null) {
             root = new Node(value);
@@ -21,8 +17,6 @@ class BinarySearchTree {
             insert(root, value);
         }
     }
-
-
     private void insert(Node node, int value) {
         if (value < node.data) {
             if (node.left == null) {
@@ -37,20 +31,15 @@ class BinarySearchTree {
                 insert(node.right, value);
             }
         }
-
     }
-
-
     void inorder(Node node) {
         if (node == null) return;
         inorder(node.left);
         System.out.print(node.data + " ");
         inorder(node.right);
     }
-
     public static void main(String[] args) {
         BinarySearchTree bst = new BinarySearchTree();
-
         bst.insert(50);
         bst.insert(30);
         bst.insert(70);
@@ -58,7 +47,6 @@ class BinarySearchTree {
         bst.insert(40);
         bst.insert(60);
         bst.insert(80);
-
         System.out.print("Inorder Traversal: ");
         bst.inorder(bst.root);
     }

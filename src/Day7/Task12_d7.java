@@ -25,11 +25,8 @@ public class Task12_d7 {
                 }
                 System.out.println("try again!");
                 System.out.println();
-
             }
-
         } while(attempt<=3);
-
     }
     public static void main(String[] args) {
         login();

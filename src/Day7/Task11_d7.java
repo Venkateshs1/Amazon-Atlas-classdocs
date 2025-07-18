@@ -1,7 +1,5 @@
 package Day7;
-
 import java.util.Scanner;
-
 public class Task11_d7 {
     static void WeekDay(){
         Scanner scanner = new Scanner(System.in);
@@ -34,7 +32,6 @@ public class Task11_d7 {
                 break;
         }
         scanner.close();
-
     }
     public static void main(String[] args) {
         WeekDay();

@@ -12,10 +12,7 @@ public class Task16_d12 {
             map.put(i, i);
         }
 
-
         System.out.println(map);
-
-
 
         map.put(null, 103);
         map.put(5, null);

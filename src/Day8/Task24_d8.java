@@ -1,5 +1,4 @@
 package Day8;
-
 public class Task24_d8 {
     // task 024 - Number of Parameters
     static void add(int x, int y) {
@@ -18,7 +17,6 @@ public class Task24_d8 {
     static void add(char x, char y){
         System.out.println(x+"  "+y);
     }
-
     public static void main(String[] args) {
         add(10, 20, 30);
         add(50, 100);
